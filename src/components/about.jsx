@@ -7,21 +7,57 @@ class About extends React.Component {
       skills: [
         {
           id: "JavaScript_skill",
-          content: "JavaScript",
-          percentage: "75%",
-          value: "75"
-        },
-        { 
-          id: "PHP_skill", 
-          content: "PHP", 
-          percentage: "75%", 
-          value: "75" 
+          content: "JavaScript / Typescript",
+          percentage: "90%",
+          value: "90"
         },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
           percentage: "80%",
           value: "80"
+        },
+        {
+          id: "NodeJS_skill",
+          content: "NodeJS",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Express_skill",
+          content: "ExpressJS",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Solidity_skill",
+          content: "Solidity",
+          percentage: "65%",
+          value: "65"
+        },
+        {
+          id: "Truffle_skill",
+          content: "Truffle",
+          percentage: "65%",
+          value: "65"
+        },
+        {
+          id: "Web3_skill",
+          content: "Web3JS",
+          percentage: "65%",
+          value: "65"
+        },
+        {
+          id: "MongoDB_skill",
+          content: "MongoDB",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "SQL_skill",
+          content: "SQL",
+          percentage: "90%",
+          value: "90"
         },
       ],
       about_me: [
@@ -32,11 +68,6 @@ class About extends React.Component {
         },
         /*{
           id: "second-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
-        {
-          id: "third-p-about",
           content:
             "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
         }*/
