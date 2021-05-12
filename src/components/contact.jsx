@@ -120,23 +120,23 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href="https://github.com/Leouarz"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-github"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
                               href="https://www.linkedin.com/in/ghali-el-ouarzazi/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/Leouarz"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-github"></i>
                               </span>
                             </a>
                           </li>

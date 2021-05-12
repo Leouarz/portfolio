@@ -34,18 +34,18 @@ class Navbar extends React.Component {
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 50) {
         document
-          .querySelector(".navbar-expand-md")
+          .querySelector(".navbar-expand-lg")
           .classList.add("navbar-reduce");
         document
-          .querySelector(".navbar-expand-md")
+          .querySelector(".navbar-expand-lg")
           .classList.remove("navbar-trans");
         this.setState({ logo: logo2 });
       } else {
         document
-          .querySelector(".navbar-expand-md")
+          .querySelector(".navbar-expand-lg")
           .classList.add("navbar-trans");
         document
-          .querySelector(".navbar-expand-md")
+          .querySelector(".navbar-expand-lg")
           .classList.remove("navbar-reduce");
         this.setState({ logo: logo1 });
       }
@@ -82,7 +82,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav
-        className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
+        className="navbar navbar-b navbar-trans navbar-expand-lg fixed-top"
         id="mainNav"
       >
         <div className="container">

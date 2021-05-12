@@ -76,11 +76,11 @@
 		var pixels = 50; 
 		var top = 1200;
 		if ($(window).scrollTop() > pixels) {
-			$('.navbar-expand-md').addClass('navbar-reduce');
-			$('.navbar-expand-md').removeClass('navbar-trans');
+			$('.navbar-expand-lg').addClass('navbar-reduce');
+			$('.navbar-expand-lg').removeClass('navbar-trans');
 		} else {
-			$('.navbar-expand-md').addClass('navbar-trans');
-			$('.navbar-expand-md').removeClass('navbar-reduce');
+			$('.navbar-expand-lg').addClass('navbar-trans');
+			$('.navbar-expand-lg').removeClass('navbar-reduce');
 		}
 		if ($(window).scrollTop() > top) {
 			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
