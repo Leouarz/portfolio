@@ -14,6 +14,8 @@ import potentielPic from "../img/info-potentiel.jpg";
 import tstPic from "../img/info-trialsupplytool.jpg";
 import aliansactPic from "../img/aliansact.png";
 import zoePic from "../img/zoe.png";
+import cysPic from "../img/checkyoursmile.png";
+
 
 class Portfolio extends React.Component {
   render() {
@@ -36,7 +38,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={"http://zoe.aliansact.com"} target="_blank" rel="noreferrer">
                   <div className="work-img">
-                    <img src={zoePic} alt="" className="img-fluid" />
+                    <img src={zoePic} alt="zoe" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -62,7 +64,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={"https://aliansact.com"} target="_blank" rel="noreferrer">
                   <div className="work-img">
-                    <img src={aliansactPic} alt="" className="img-fluid" />
+                    <img src={aliansactPic} alt="aliansact" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -88,7 +90,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={pdmPic} data-lightbox="gallery-dz">
                   <div className="work-img">
-                    <img src={companyPic} alt="" className="img-fluid" />
+                    <img src={companyPic} alt="dz-1" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -149,7 +151,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={sciencespoPic} data-lightbox="gallery-sciencespo">
                   <div className="work-img">
-                    <img src={sciencespoPic} alt="" className="img-fluid" />
+                    <img src={sciencespoPic} alt="sciencespo" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -175,7 +177,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={"http://sogeflex.com"} target="_blank" rel="noreferrer">
                   <div className="work-img">
-                    <img src={sogeflexPic} alt="" className="img-fluid" />
+                    <img src={sogeflexPic} alt="sogeflex" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -201,7 +203,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={"http://sogeracks.com"} target="_blank" rel="noreferrer">
                   <div className="work-img">
-                    <img src={sogeracksPic} alt="" className="img-fluid" />
+                    <img src={sogeracksPic} alt="sogeracks" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -210,6 +212,32 @@ class Portfolio extends React.Component {
                         <div className="w-more">
                           <span className="w-ctegory">
                             PHP Javascript HTML5 CSS3
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href={"https://www.checkyoursmile.fr/app.php/fr/contributeurs"} target="_blank" rel="noreferrer" >
+                  <div className="work-img">
+                    <img src={cysPic} alt="cys project" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Contribution application d'apprentissage des langues</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            PHP
                           </span>
                         </div>
                       </div>
