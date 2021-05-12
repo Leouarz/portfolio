@@ -701,6 +701,7 @@ PORTFOLIO
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 90%;
 }
 
 .work-box:hover img {
