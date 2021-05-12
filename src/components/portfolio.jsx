@@ -1,10 +1,10 @@
 import React from "react";
 
 //import stock
-import mathPic from "../img/math.jpg";
+import mathPic from "../img/math.png";
 import sogeracksPic from "../img/sogeracks.png";
 import sogeflexPic from "../img/sogeflex.png";
-import sciencespoPic from "../img/sciencespo.jpg";
+import sciencespoPic from "../img/sciencespo.png";
 import companyPic from "../img/company.png";
 import pdmPic from "../img/info-plantdatamanager.jpg";
 import wmsPic from "../img/info-warehousemanagementstation.jpg";
@@ -13,7 +13,7 @@ import gdqPic from "../img/info-gestiondesquais.jpg";
 import potentielPic from "../img/info-potentiel.jpg";
 import tstPic from "../img/info-trialsupplytool.jpg";
 import aliansactPic from "../img/aliansact.png";
-import zoePic from "../img/aliansact.png";
+import zoePic from "../img/zoe.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -34,14 +34,14 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={"http://zoe.aliansact.com"} data-lightbox="gallery-vmarine">
+                <a href={"http://zoe.aliansact.com"} target="_blank" rel="noreferrer">
                   <div className="work-img">
                     <img src={zoePic} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Prototype d'application d'externalisation des recrutements</h2>
+                        <h2 className="w-title">Application d'externalisation des recrutements</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             React Node Express MongoDB
@@ -60,7 +60,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={"https://aliansact.com"} data-lightbox="gallery-vmarine">
+                <a href={"https://aliansact.com"} target="_blank" rel="noreferrer">
                   <div className="work-img">
                     <img src={aliansactPic} alt="" className="img-fluid" />
                   </div>
@@ -86,7 +86,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={pdmPic} data-lightbox="gallery-vmarine">
+                <a href={pdmPic} data-lightbox="gallery-dz">
                   <div className="work-img">
                     <img src={companyPic} alt="" className="img-fluid" />
                   </div>
@@ -110,35 +110,35 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={wmsPic}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-dz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={gdpPic}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-dz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={gdqPic}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-dz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={potentielPic}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-dz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={tstPic}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-dz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -147,7 +147,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={sciencespoPic} data-lightbox="gallery-vmarine">
+                <a href={sciencespoPic} data-lightbox="gallery-sciencespo">
                   <div className="work-img">
                     <img src={sciencespoPic} alt="" className="img-fluid" />
                   </div>

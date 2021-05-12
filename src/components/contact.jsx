@@ -108,7 +108,7 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill the form and send me an email.
                         </p>
                         <ul class="list-ico">
                           <li><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/80+Boulevard+Flandrin,+75116+Paris/data=!4m2!3m1!1s0x47e66559adbf837b:0xdd02578b5d0a8d5?sa=X&ved=2ahUKEwjr9bCo0cHwAhWRMBQKHZbfCUsQ8gEwAHoECAYQAQ"><span style={{paddingRight: "4px"}} class="ion-ios-location"></span>80 Boulevard Flandrin, 75116, Paris</a></li>
