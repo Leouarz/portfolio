@@ -40,7 +40,7 @@ class Intro extends React.Component {
                   View my work
                 </a>
                 <a
-                  className="btn btn-primary btn js-scroll px-4"
+                  className="btn btn-primary btn px-4"
                   href="CV.pdf"
                   target="_blank"
                   role="button"

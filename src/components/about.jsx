@@ -144,6 +144,26 @@ class About extends React.Component {
                         );
                       })}
                     </div>
+                    <p className="pt-3">
+                      <a
+                        className="btn btn-primary btn px-4"
+                        href="CV.pdf"
+                        target="_blank"
+                        role="button"
+                        style={{marginLeft:"2px"}}
+                      >
+                        French resume
+                      </a>
+                      <a
+                        className="btn btn-primary btn px-4"
+                        href="CV_english.pdf"
+                        target="_blank"
+                        role="button"
+                        style={{marginLeft:"2px"}}
+                      >
+                        English resume
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
