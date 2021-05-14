@@ -64,13 +64,18 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Curious, dynamic, passionate but also rigorous and determined, these are the qualities that characterize me at work and in life."
         },
-        /*{
+        {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }*/
+            "As an engineer since 2019 and holder of two degrees in computer science and big data, I have not stopped evolving and certifying myself in the fields of development, human resources, project management and blockchain."
+        },
+        {
+          id: "third-p-about",
+          content:
+            "My vocation is to accompany my clients or my employers in the digital transformation of companies by allowing them to seize with passion this tremendous opportunity offered by digital and emerging technologies"
+        }
       ]
     };
   }
