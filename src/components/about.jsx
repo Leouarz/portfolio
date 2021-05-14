@@ -36,14 +36,14 @@ class About extends React.Component {
           value: "65"
         },
         {
-          id: "Truffle_skill",
-          content: "Truffle",
+          id: "Web3_skill",
+          content: "Web3JS",
           percentage: "65%",
           value: "65"
         },
         {
-          id: "Web3_skill",
-          content: "Web3JS",
+          id: "Truffle_skill",
+          content: "Truffle",
           percentage: "65%",
           value: "65"
         },
