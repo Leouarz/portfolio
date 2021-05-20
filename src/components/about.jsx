@@ -59,6 +59,18 @@ class About extends React.Component {
           percentage: "90%",
           value: "90"
         },
+        {
+          id: "Mocha_skill",
+          content: "Mocha",
+          percentage: "65%",
+          value: "65"
+        },
+        {
+          id: "Chai_skill",
+          content: "Chai",
+          percentage: "65%",
+          value: "65"
+        },
       ],
       about_me: [
         {
