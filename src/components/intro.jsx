@@ -41,7 +41,7 @@ class Intro extends React.Component {
                 </a>
                 <a
                   className="btn btn-primary btn px-4"
-                  href="CV.pdf"
+                  href="CV_english.pdf"
                   target="_blank"
                   role="button"
                   style={{marginLeft:"2px"}}

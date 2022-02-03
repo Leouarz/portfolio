@@ -14,44 +14,56 @@ class About extends React.Component {
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          percentage: "80%",
-          value: "80"
+          percentage: "90%",
+          value: "90"
         },
         {
           id: "NodeJS_skill",
           content: "NodeJS",
-          percentage: "80%",
-          value: "80"
+          percentage: "90%",
+          value: "90"
         },
         {
           id: "Express_skill",
           content: "ExpressJS",
-          percentage: "80%",
-          value: "80"
+          percentage: "90%",
+          value: "90"
+        },
+        {
+          id: "Rust_skill",
+          content: "Rust",
+          percentage: "70%",
+          value: "70"
+        },
+        {
+          id: "Substrate_skill",
+          content: "Substrate",
+          percentage: "60%",
+          value: "60"
         },
         {
           id: "Solidity_skill",
           content: "Solidity",
-          percentage: "65%",
-          value: "65"
+          percentage: "80%",
+          value: "80"
         },
         {
           id: "Web3_skill",
           content: "Web3JS",
-          percentage: "65%",
-          value: "65"
+          percentage: "80%",
+          value: "80"
         },
         {
           id: "Truffle_skill",
           content: "Truffle",
-          percentage: "65%",
-          value: "65"
+          percentage: "60%",
+          value: "60"
         },
         {
           id: "MongoDB_skill",
           content: "MongoDB",
-          percentage: "80%",
-          value: "80"
+          percentage: "90%",
+          value: "90"
         },
         {
           id: "SQL_skill",
@@ -62,14 +74,14 @@ class About extends React.Component {
         {
           id: "Mocha_skill",
           content: "Mocha",
-          percentage: "65%",
-          value: "65"
+          percentage: "70%",
+          value: "70"
         },
         {
           id: "Chai_skill",
           content: "Chai",
-          percentage: "65%",
-          value: "65"
+          percentage: "70%",
+          value: "70"
         },
       ],
       about_me: [
@@ -125,9 +137,6 @@ class About extends React.Component {
                         return (
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
-                            {/*<span className="pull-right">
-                              {skill.percentage}
-                            </span>*/}
                             <div className="progress">
                               <div
                                 className="progress-bar"
@@ -158,20 +167,18 @@ class About extends React.Component {
                     </div>
                     <p className="pt-3">
                       <a
-                        className="btn btn-primary btn px-4"
+                        className="btn btn-primary btn px-4 m-1"
                         href="CV.pdf"
                         target="_blank"
                         role="button"
-                        style={{marginLeft:"2px"}}
                       >
                         French resume
                       </a>
                       <a
-                        className="btn btn-primary btn px-4"
+                        className="btn btn-primary btn px-4 m-1"
                         href="CV_english.pdf"
                         target="_blank"
                         role="button"
-                        style={{marginLeft:"2px"}}
                       >
                         English resume
                       </a>

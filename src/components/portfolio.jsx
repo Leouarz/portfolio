@@ -15,7 +15,112 @@ import tstPic from "../img/info-trialsupplytool.jpg";
 import aliansactPic from "../img/aliansact.png";
 import zoePic from "../img/zoe.png";
 import cysPic from "../img/checkyoursmile.png";
+import launchpadPic from "../img/launchpadPic.png";
+import indexerPic from "../img/indexerPic.png";
+import secretNftPic from "../img/secretnftPic.png";
+import bridgePic from "../img/bridgePic.png";
+import apiPic from "../img/apiPic.png";
 
+const carousel0 = () => {
+  return (
+    <>
+      <a
+        href={wmsPic}
+        data-lightbox="gallery-dz"
+        style={{ display: "none" }}
+      >
+        jsx-a11y/anchor-has-content warning
+      </a>
+      <a
+        href={gdpPic}
+        data-lightbox="gallery-dz"
+        style={{ display: "none" }}
+      >
+        jsx-a11y/anchor-has-content warning
+      </a>
+      <a
+        href={gdqPic}
+        data-lightbox="gallery-dz"
+        style={{ display: "none" }}
+      >
+        jsx-a11y/anchor-has-content warning
+      </a>
+      <a
+        href={potentielPic}
+        data-lightbox="gallery-dz"
+        style={{ display: "none" }}
+      >
+        jsx-a11y/anchor-has-content warning
+      </a>
+      <a
+        href={tstPic}
+        data-lightbox="gallery-dz"
+        style={{ display: "none" }}
+      >
+        jsx-a11y/anchor-has-content warning
+      </a>
+    </>
+  )
+}
+
+const Item = ({title, image, tags, link, alt, secondaryPic, carousel }) => {
+  return (
+    <>
+      <div className="col-md-4">
+        <div className="work-box">
+          {link ? 
+            <a href={link} target="_blank" rel="noreferrer">
+              <div className="work-img">
+                <img src={image} alt={alt} className="img-fluid" />
+              </div>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">{title}</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        {tags}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          :
+            <a href={secondaryPic ? secondaryPic : image} data-lightbox={`gallery-${alt}`}>
+              <div className="work-img">
+                <img src={image} alt={alt} className="img-fluid" />
+              </div>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">{title}</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        {tags}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          }
+          {carousel ? carousel() : <></>}
+        </div>
+      </div>
+    </>
+  )
+}
 
 class Portfolio extends React.Component {
   render() {
@@ -34,249 +139,109 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"http://zoe.aliansact.com"} target="_blank" rel="noreferrer">
-                  <div className="work-img">
-                    <img src={zoePic} alt="zoe" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Application d'externalisation des recrutements</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            React Node Express MongoDB
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"https://aliansact.com"} target="_blank" rel="noreferrer">
-                  <div className="work-img">
-                    <img src={aliansactPic} alt="aliansact" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Site d'entreprise Aliansact</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            PHP wordpress HTML5 CSS3
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={pdmPic} data-lightbox="gallery-dz">
-                  <div className="work-img">
-                    <img src={companyPic} alt="dz-1" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Projets effectués en ESN</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Vb.Net C# Javascript WPF
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href={wmsPic}
-                  data-lightbox="gallery-dz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={gdpPic}
-                  data-lightbox="gallery-dz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={gdqPic}
-                  data-lightbox="gallery-dz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={potentielPic}
-                  data-lightbox="gallery-dz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={tstPic}
-                  data-lightbox="gallery-dz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={sciencespoPic} data-lightbox="gallery-sciencespo">
-                  <div className="work-img">
-                    <img src={sciencespoPic} alt="sciencespo" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Gestion des heures complémentaires des professeurs de Sciences Po Toulouse</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            PHP Symfony Javascript HTML5 CSS3 Bootstrap
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"http://sogeflex.com"} target="_blank" rel="noreferrer">
-                  <div className="work-img">
-                    <img src={sogeflexPic} alt="sogeflex" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Site vitrine entreprise industrielle</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            PHP Javascript HTML5 CSS3
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"http://sogeracks.com"} target="_blank" rel="noreferrer">
-                  <div className="work-img">
-                    <img src={sogeracksPic} alt="sogeracks" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">E-Catalogue de produits de stockages</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            PHP Javascript HTML5 CSS3
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"https://www.checkyoursmile.fr/app.php/fr/contributeurs"} target="_blank" rel="noreferrer" >
-                  <div className="work-img">
-                    <img src={cysPic} alt="cys project" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Contribution application d'apprentissage des langues</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            PHP
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"http://math.aliansact.com"} target="_blank" rel="noreferrer" >
-                  <div className="work-img">
-                    <img src={mathPic} alt="math project" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Simulation d'un processus Markovien</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Javascript HTML5 CSS3 Bootstrap
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+            <Item
+              key={"ternoa-launchpad"}
+              title={"Ternoa lauchpad / launchpad API"}
+              tags={"React Node Next Express MongoDB Ethers Wallet connect Etherscan Ethplorer Covalent"}
+              image={launchpadPic}
+              alt={"ternoa-launchpad"}
+              link={"https://launchpad.ternoa.com/"}
+            />
+            <Item
+              key={"ternoa-indexer"}
+              title={"Ternoa blockchain indexer / dictionary"}
+              tags={"Subquery Postgres Graphql Substrate Node"}
+              image={indexerPic}
+              alt={"ternoa-indexer"}
+              link={"https://indexer.testnet.ternoa.com/"}
+            />
+            <Item
+              key={"ternoa-secretnft"}
+              title={"Ternoa marketplace"}
+              tags={"React Node Express MongoDB Polkadot.js"}
+              image={secretNftPic}
+              alt={"ternoa-secretnft"}
+              link={"https://www.secret-nft.com/"}
+            />
+            <Item
+              key={"ternoa-bridge"}
+              title={"Ternoa bridge"}
+              tags={"React Next Metamask Ethers.js WalletConnect"}
+              image={bridgePic}
+              alt={"ternoa-bridge"}
+              link={"https://bridge.ternoa.com/"}
+            />
+            <Item
+              key={"ternoa-api"}
+              title={"Ternoa-api (Users, Faucet, NFT Giveaway, Signature verification, ..."}
+              tags={"Node Express MongoDB Polkadot.js Ethers Cron"}
+              image={apiPic}
+              alt={"ternoa-api"}
+            />
+            <Item
+              key={"zoe"}
+              title={"Recruitment outsourcing application"}
+              tags={"React Node Express MongoDB"}
+              image={zoePic}
+              alt={"zoe"}
+              link={"http://zoe.aliansact.com"}
+            />
+            <Item
+              key={"aliansact"}
+              title={"Aliansact company website"}
+              tags={"PHP wordpress HTML5 CSS3"}
+              image={aliansactPic}
+              alt={"aliansact"}
+              link={"https://aliansact.com"}
+            />
+            <Item
+              key={"dz"}
+              title={"Projects carried out in IT services firm"}
+              tags={"Vb.Net C# Javascript WPF"}
+              image={companyPic}
+              secondaryPic={pdmPic}
+              alt={"dz"}
+              carousel={carousel0}
+            />
+            <Item
+              key={"sciencespo"}
+              title={"Management of additional hours for professors at Sciences Po Toulouse"}
+              tags={"PHP Symfony Javascript HTML5 CSS3 Bootstrap"}
+              image={sciencespoPic}
+              alt={"sciencespo"}
+            />
+            <Item
+              key={"sogeflex"}
+              title={"Industrial company showcase site"}
+              tags={"PHP Javascript HTML5 CSS3"}
+              image={sogeflexPic}
+              alt={"sogeflex"}
+              link={"http://sogeflex.com"}
+            />
+            <Item
+              key={"sogeracks"}
+              title={"E-Catalogue of storage products"}
+              tags={"PHP Javascript HTML5 CSS3"}
+              image={sogeracksPic}
+              alt={"sogeracks"}
+              link={"http://sogeracks.com"}
+            />
+            <Item
+              key={"cys project"}
+              title={"Contribution to language learning application"}
+              tags={"PHP Javascript HTML5 CSS3"}
+              image={cysPic}
+              alt={"cys project"}
+              link={"https://www.checkyoursmile.fr/app.php/fr/contributeurs"}
+            />
+            <Item
+              key={"math project"}
+              title={"Simulation of a Markov process"}
+              tags={"Javascript HTML5 CSS3 Bootstrap"}
+              image={mathPic}
+              alt={"math project"}
+              link={"http://math.aliansact.com"}
+            />
           </div>
         </div>
       </section>
