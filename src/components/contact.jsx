@@ -39,7 +39,7 @@ class Contact extends React.Component {
                                   id="name"
                                   placeholder="Your Name"
                                   required
-                                  maxlength="120"
+                                  maxLength="120"
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -53,7 +53,7 @@ class Contact extends React.Component {
                                   id="email"
                                   placeholder="Your Email"
                                   required
-                                  maxlength="500"
+                                  maxLength="500"
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -67,8 +67,8 @@ class Contact extends React.Component {
                                   id="subject"
                                   placeholder="Subject"
                                   required
-                                  minlength="4"
-                                  maxlength="200"
+                                  minLength="4"
+                                  maxLength="200"
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -80,7 +80,7 @@ class Contact extends React.Component {
                                   name="message"
                                   rows="5"
                                   required
-                                  maxlength="500"
+                                  maxLength="500"
                                   placeholder="Message"
                                 ></textarea>
                                 <div className="validation"></div>
@@ -110,10 +110,10 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the form and send me an email.
                         </p>
-                        <ul class="list-ico">
-                          <li><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/80+Boulevard+Flandrin,+75116+Paris/data=!4m2!3m1!1s0x47e66559adbf837b:0xdd02578b5d0a8d5?sa=X&ved=2ahUKEwjr9bCo0cHwAhWRMBQKHZbfCUsQ8gEwAHoECAYQAQ"><span style={{paddingRight: "4px"}} class="ion-ios-location"></span>80 Boulevard Flandrin, 75116, Paris</a></li>
-                          <li><a href="tel:+33634171934"><span style={{paddingRight: "2px"}} class="ion-ios-telephone"></span>(+33) 6 34 17 19 34</a></li>
-                          <li><a target="_blank" rel="noreferrer" href="mailto:g.elouarzaz@aliansactfrance.com"><span class="ion-email"></span>g.elouarzaz@aliansactfrance.com</a></li>
+                        <ul className="list-ico">
+                          <li><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/80+Boulevard+Flandrin,+75116+Paris/data=!4m2!3m1!1s0x47e66559adbf837b:0xdd02578b5d0a8d5?sa=X&ved=2ahUKEwjr9bCo0cHwAhWRMBQKHZbfCUsQ8gEwAHoECAYQAQ"><span style={{paddingRight: "4px"}} className="ion-ios-location"></span>80 Boulevard Flandrin, 75116, Paris</a></li>
+                          <li><a href="tel:+33634171934"><span style={{paddingRight: "2px"}} className="ion-ios-telephone"></span>(+33) 6 34 17 19 34</a></li>
+                          <li><a target="_blank" rel="noreferrer" href="mailto:g.elouarzaz@aliansactfrance.com"><span className="ion-email"></span>g.elouarzaz@aliansactfrance.com</a></li>
                         </ul>
                       </div>
                       <div className="socials">
